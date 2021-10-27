@@ -164,6 +164,29 @@ span {
   border: 1px solid white;
 }
 
+.sheet-left {
+  border-right: 1px solid white;
+}
+
+.sheet-left__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+
+.sheet-left__nav li {
+  cursor: pointer;
+}
+
+.sheet-left__nav li:hover {
+  color: #44cef0;
+}
+
 .sheet-right__text-content {
   padding-left: 20px;
   padding-right: 20px;
@@ -188,4 +211,13 @@ span {
 
 .sheet-right__nav li {
   cursor: pointer;
+}
+
+.sheet-right__nav li:hover {
+  color: #44cef0;
+}
+
+.react-tabs__tab--selected {
+  text-decoration: underline;
+  color: #44cef0;
 }

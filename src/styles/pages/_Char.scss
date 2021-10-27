@@ -8,7 +8,26 @@
     display: flex;
     @include margin-left-right-large;
     border: 1px solid white;
-    
+
+    &-left {
+        border-right:  1px solid white;
+
+        &__nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 5px;
+            @include margin-bottom-small;
+            border-bottom: 1px solid white;
+                & li {
+                    cursor: pointer;
+
+                    &:hover {
+                        color: rgb(68, 206, 240);
+                    }
+                }
+        }
+    }
+
     &-right {
 
         &__text-content {
@@ -28,11 +47,19 @@
 
                 & li {
                     cursor: pointer;
+
+                    &:hover {
+                        color: rgb(68, 206, 240);
+                    }
                 }
+
         }
     }
     
 }
 
-
+.react-tabs__tab--selected {
+    text-decoration: underline;
+    color: rgb(68, 206, 240);
+}
 
