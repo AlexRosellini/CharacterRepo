@@ -6,8 +6,9 @@ import Char from "./Components/Char";
 
 function App() {
   return (
-    <>
-      <Router>
+  
+  <Router>
+    <>    
       <Header/>
       <Switch>
         <Route path = '/CharacterRepo/'>
@@ -17,8 +18,9 @@ function App() {
           <Char/>
         </Route>
       </Switch>
-      </Router>
+      
     </>
+  </Router>
   );
 }
 
