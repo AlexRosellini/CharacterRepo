@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/CharacterRepo/static/css/main.69f8b526.chunk.css",
+    "main.js": "/CharacterRepo/static/js/main.8ce2f6b0.chunk.js",
+    "main.js.map": "/CharacterRepo/static/js/main.8ce2f6b0.chunk.js.map",
+    "runtime-main.js": "/CharacterRepo/static/js/runtime-main.767a198e.js",
+    "runtime-main.js.map": "/CharacterRepo/static/js/runtime-main.767a198e.js.map",
+    "static/js/2.8ccc5a12.chunk.js": "/CharacterRepo/static/js/2.8ccc5a12.chunk.js",
+    "static/js/2.8ccc5a12.chunk.js.map": "/CharacterRepo/static/js/2.8ccc5a12.chunk.js.map",
+    "index.html": "/CharacterRepo/index.html",
+    "static/css/main.69f8b526.chunk.css.map": "/CharacterRepo/static/css/main.69f8b526.chunk.css.map",
+    "static/js/2.8ccc5a12.chunk.js.LICENSE.txt": "/CharacterRepo/static/js/2.8ccc5a12.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.767a198e.js",
+    "static/js/2.8ccc5a12.chunk.js",
+    "static/css/main.69f8b526.chunk.css",
+    "static/js/main.8ce2f6b0.chunk.js"
+  ]
+}
