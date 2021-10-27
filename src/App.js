@@ -10,7 +10,7 @@ function App() {
       <Router>
       <Header/>
       <Switch>
-        <Route path = '/'>
+        <Route path = '/CharacterRepo/'>
           <FirstPage/>
         </Route>
         <Route exact path = '/:id'>
