@@ -1,0 +1,31 @@
+
+.header {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        @include flex-C;
+        background-color: $header;
+
+    }
+
+    &__picture {
+        @include padding-top-bottom-large;
+        @include padding-right-large;
+        & img {
+            height: 100px;
+        }
+    }
+}
+
+.text-area {
+    @include flex-C;
+    flex-direction: column;
+    @include padding-top-bottom-large;
+    background-color: $textarea;
+
+    & h2 {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+}

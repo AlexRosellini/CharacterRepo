@@ -1,0 +1,48 @@
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    @include padding-top-bottom-large;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.card {
+    display: flex;
+    text-align: center;
+    width: 25%;
+    min-width: 400px;
+    @include margin-left-right-large;
+    border: 1px solid black;
+    border-radius: 20px;
+    flex-direction: column;
+    background-color: $card;
+
+    &__top {
+
+        &-title {
+            @include padding-left-right-small;
+            flex-direction: column;
+            & p {
+                color: rgb(125, 116, 240);
+            }
+        }
+
+        & img {
+            width: 100%;
+            height: 500px;
+        }
+    }
+
+    &:hover {
+        transform: scale(1.04);
+        cursor: pointer;
+    }
+
+    &__bottom {
+        & p {
+            @include padding-left-right-small;
+            @include padding-top-bottom-small;
+        }
+    }
+}

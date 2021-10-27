@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    font-family: quicksand;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    list-style: none;
+}
+
+a:hover {
+    color: rgb(245, 153, 153);
+}
+
+span {
+    font-weight: bold;
+}
+
+.section {
+    background-color: $section;
+}
+
+.alert {
+    color: rgb(122, 1, 1);
+}
