@@ -1,0 +1,38 @@
+.section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sheet {
+    background-color: $card;
+    display: flex;
+    @include margin-left-right-large;
+    border: 1px solid white;
+    
+    &-right {
+
+        &__text-content {
+            @include padding-left-right-large;
+            & p {
+                @include padding-top-bottom-large;
+                font-size: 17px;
+            }
+        }
+
+        &__nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 5px;
+            @include margin-bottom-small;
+            border-bottom: 1px solid white;
+
+                & li {
+                    cursor: pointer;
+                }
+        }
+    }
+    
+}
+
+
+
