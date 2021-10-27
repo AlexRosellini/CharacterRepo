@@ -10,7 +10,7 @@ function App() {
       <Router>
       <Header/>
       <Switch>
-        <Route exact path = '/'>
+        <Route path = '/home'>
           <FirstPage/>
         </Route>
         <Route exact path = '/:id'>
